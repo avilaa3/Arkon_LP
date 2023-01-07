@@ -1,4 +1,4 @@
-.rectangle{
+.container{
     margin: auto;
     background-color: aqua;
     width: 1440px;
@@ -13,24 +13,78 @@
     background-color: #F8F8F8;
  }
 
- .segundo{
-    margin: auto;
-    float: right;
-    width: 80%;
-    height: 642px;
-    background-color:red;
- }
- 
  .logo{
     display:block;
     margin: auto;
     margin-top: 20%;
  }
 
+ .segundo{
+    position: relative;
+    margin: auto;
+    float: right;
+    width: 80%;
+    height: 642px;
+    background-color:red;
+ }
+
  .image6{
     width: 100%;
  }
 
+ .segundo h1{
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    color: #FFFFFF;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 300;
+    line-height: 61px;
+    letter-spacing: 0;
+ }
+
+ .segundo h2{
+    position: absolute;
+    top: 32%;
+    left: 34%;
+    color: #FFFFFF;
+    font-size: 144px;
+    font-weight: bold;
+    font-family: "Montserrat";
+ }
+
+ .segundo p{
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+ }
+
+ .segundo button{
+    position: absolute;
+    top: 66%;
+    left: 67%;
+    height: 40px;
+    width: 220px;
+    background-color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    color: #009FDC;
+    background-color: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    border-style: none;
+ }
  /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
 
@@ -53,3 +107,5 @@
     }
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
