@@ -85,6 +85,8 @@ body{
 
 }
 
+/*Style for Master - Control section*/
+
 .master{
   width: var(--full-width);
   margin: 0 auto;
@@ -145,18 +147,170 @@ body{
 
 .master button{
   position: absolute;
-  height: 40px;
-  width: 220px;
-  left: 1059px;
-  top: 447px;
-  border-radius: 17px;
+  height: 2.5rem;
+  width: 13.75rem;
+  left: 66.1875rem;
+  top: 27.9375rem;
+  border-radius: 1.0625rem;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
   color: #009FDC;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
-  line-height: 19px;
+  line-height: 1.1875rem;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+
+/*Style for Data section*/
+
+.data {
+  position: relative;
+  height: 38.3125rem;
+}
+
+.data img{
+  position: relative;
+}
+
+.data p{
+  position: absolute;
+  height: 1.5625rem;
+  width: 15.125rem;
+  left: 53.9375rem;
+  top: 7.5rem;
+  color: #4A4A4A;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5625rem;
+  letter-spacing: 0;
+}
+
+.data h2{
+  position: absolute;
+  height: 1.5625rem;
+  width: 21.5rem;
+  left: 53.9375rem;
+  top: 10rem;
+  color: #4A4A4A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.5625rem;
+}
+
+.data h3{
+  position: absolute;
+  height: 12.125rem;
+  width: 22.3125rem;
+  left: 53.9375rem;
+  top: 13.3125rem;
+  color: #4A4A4A;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  line-height: 1.3125rem;
+
+}
+
+.data button{
+  position: absolute;
+  height: 2.5rem;
+  width: 13.75rem;
+  left: 53.9375rem;
+  top: 27.5rem;
+  background-color: #3DC0CB;
+  border-radius: 1.0625rem;
+  border-color: #3DC0CB;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.1875rem;
+}
+
+.solution {
+  position: relative;
+  top: -0.4375rem;
+  height: 58.75rem;
+}
+
+.img3{
+  position: relative;
+  float: right;
+  top: -58.75rem;
+}
+
+/*Style for trustworthy section*/
+
+.trustworthy{
+    position: relative;
+    height: 1254px;
+    background: #FFFFFF;
+    background: linear-gradient(to right bottom, #FFFFFF 50%, #EFEFEF 50%);
+}
+
+.trustworthy img{
+  position: relative;
+  left: 691px;
+  top: 65px;
+}
+
+.trustworthy p{
+  position: absolute;
+  height: 25px;
+  width: 364px;
+  left: 160px;
+  top: 217px;
+  color: var(--color-text)
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-break: 25px;
+}
+
+.trustworthy h2{
+  position: absolute;
+  height: 25px;
+  width: 467px;
+  left: 160px;
+  top: 268px;
+  color: var(--color-text)
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.trustworthy h3{
+  position: absolute;
+  height: 194px;
+  width: 357px;
+  left: 160px;
+  top: 311px;
+  color: var(--color-text);
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.trustworthy button{
+  position: absolute;
+  height: 40px;
+  width: 220px;
+  left: 160px;
+  top: 526px;
+  border-radius: 17px;
+  background-color: var(--color-primary);
+  color:#FFFFFF;
+  font-family: 'Montserat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
 }
