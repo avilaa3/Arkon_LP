@@ -249,7 +249,7 @@ body{
 
 .trustworthy{
     position: relative;
-    height: 1254px;
+    height: 1134px;
     background: #FFFFFF;
     background: linear-gradient(to right bottom, #FFFFFF 50%, #EFEFEF 50%);
 }
@@ -266,7 +266,7 @@ body{
   width: 364px;
   left: 160px;
   top: 217px;
-  color: var(--color-text)
+  color: var(--color-text);
   font-family: 'Noto Sans Display', sans-serif;
   font-size: 24px;
   letter-spacing: 0;
@@ -279,7 +279,7 @@ body{
   width: 467px;
   left: 160px;
   top: 268px;
-  color: var(--color-text)
+  color: var(--color-text);
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   font-weight: bold;
@@ -309,8 +309,160 @@ body{
   border-radius: 17px;
   background-color: var(--color-primary);
   color:#FFFFFF;
-  font-family: 'Montserat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 19px;
+}
+
+/*Style for form section*/
+
+.demo{
+  position: relative;
+  height: 659px;
+  background-color: #0D2643;
+}
+
+.square1{
+  position: relative;
+  height: 692px;
+  width: 905px;
+  top: -188px;
+  border-radius: 0 60px 60px 0;
+  background: linear-gradient(312.51deg, #3DC0CB 0%, #0AA4D9 22.04%, #0F4B90 82.79%, #122336 100%)
+}
+
+.square2{
+  margin-left: 149px;
+  height: 491px;
+  width: 462px;
+}
+
+.demo div .get{
+  position: relative;
+  height: 58px;
+  width: 126px;
+  margin: auto;
+  top: 30px;
+  color: #FFFFFF;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+.demo div .demo1{
+  position: relative;
+  height: 101px;
+  width: 252px;
+  margin: auto;
+  top: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 83px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 101px;
+}
+
+.demo div .text{
+  position: relative;
+  height: 82px;
+  width: 462px;
+  margin: auto;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 25px;
+  text-align: center;
+}
+
+.demo div form{
+  height: 270px;
+  width: 462px;
+}
+
+.demo div div form .name{
+  height: 40px;
+  width: 410px;
+  margin-left: 25px;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0.0);
+  padding-left: 30px;
+}
+
+.demo div div form .last{
+  height: 40px;
+  width: 410px;
+  margin-left: 25px;
+  margin-top: 16px;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0.0);
+  padding-left: 30px;
+}
+
+.demo div div form .company{
+  height: 40px;
+  width: 410px;
+  margin-left: 25px;
+  margin-top: 16px;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0.0);
+  padding-left: 30px;
+}
+
+.demo div div form .mail{
+  height: 40px;
+  width: 410px;
+  margin-left: 25px;
+  margin-top: 16px;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0.0);
+  padding-left: 30px;
+}
+
+.demo div div form .btn{
+  height: 40px;
+  width: 405px;
+  margin-left: 25px;
+  margin-top: 16px;
+  border: 2px solid #FFFFFF;
+  border-radius: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+  color: var(--color-primary);
+  background-color: #FFFFFF;
 }
